@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.yjh.svg.SvgTestActivity;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_property_value_animation).setOnClickListener(this);
         findViewById(R.id.btn_property_Object_animation).setOnClickListener(this);
         findViewById(R.id.btn_tween_animation).setOnClickListener(this);
+        findViewById(R.id.btn_svg_animation).setOnClickListener(this);
     }
 
     @Override
@@ -35,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }else if(v.getId() == R.id.btn_property_Object_animation){
             Intent intent = new Intent(this,PropertyObjectAnimActivity.class);
+            startActivity(intent);
+        }else if(v.getId() == R.id.btn_svg_animation){
+            Intent intent = new Intent(this,SvgTestActivity.class);
             startActivity(intent);
         }
     }

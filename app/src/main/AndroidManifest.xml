@@ -19,7 +19,8 @@
         <activity android:name=".FrameAnimationActivity" />
         <activity android:name=".PropertyValueAnimationActivity" />
         <activity android:name=".TweenAnimationActivity" />
-        <activity android:name=".PropertyObjectAnimActivity"></activity>
+        <activity android:name=".PropertyObjectAnimActivity" />
+        <activity android:name="com.yjh.svg.SvgTestActivity"></activity>
     </application>
 
 </manifest>
