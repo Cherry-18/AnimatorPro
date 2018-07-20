@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <!--oneshot="true" 设置是否循环播放，默认是循环播放的，等于true，就不是循环播放-->
+
+    <item android:drawable="@drawable/s1"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s2"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s3"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s4"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s5"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s6"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s7"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s8"
+        android:duration="500"/>
+
+    <item android:drawable="@drawable/s9"
+        android:duration="500"/>
+
+</animation-list>
