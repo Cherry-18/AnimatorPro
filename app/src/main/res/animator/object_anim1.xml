@@ -6,7 +6,7 @@
     M 20,80
     L 50,80 80,80"
     android:valueTo="
-    M 20,30
+    M 20,80
     L 50,50 80,50"
     android:valueType="pathType">
 

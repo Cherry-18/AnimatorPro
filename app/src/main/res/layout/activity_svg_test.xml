@@ -10,5 +10,12 @@
         android:id="@+id/iv_svg_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/svg_line"/>
+        android:drawableLeft="@drawable/anim_vector"/>
+
+
+    <TextView
+        android:id="@+id/tv_svg_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="svg开始"/>
 </LinearLayout>
