@@ -27,7 +27,7 @@ public class SvgTestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_svg_test);
         imageView = findViewById(R.id.iv_svg_test);
         textView = findViewById(R.id.tv_svg_start);
-        drawable = (AnimatedVectorDrawable)imageView.getResources().getDrawable(R.drawable.anim_vector);
+        drawable = (AnimatedVectorDrawable)imageView.getResources().getDrawable(R.drawable.animated_svg);
         imageView.setImageDrawable(drawable);
 
         setListener();

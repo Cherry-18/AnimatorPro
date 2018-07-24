@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/refresh_vector"
+    tools:targetApi="lollipop">
+    <target
+        android:name="path1"
+        android:animation="@animator/animator_path_one" />
+    <!--<target-->
+        <!--android:name="path2"-->
+        <!--android:animation="@animator/animator_path_two" />-->
+    <!--<target-->
+        <!--android:name="path3"-->
+        <!--android:animation="@animator/animator_path_three" />-->
+    <!--<target-->
+        <!--android:name="path4"-->
+        <!--android:animation="@animator/animator_path_four" />-->
+    <!--<target-->
+        <!--android:name="path5"-->
+        <!--android:animation="@animator/animator_path_five" />-->
+    <!--<target-->
+        <!--android:name="path6"-->
+        <!--android:animation="@animator/animator_path_six" />-->
+    <!--<target-->
+        <!--android:name="path7"-->
+        <!--android:animation="@animator/animator_path_seven" />-->
+
+</animated-vector>

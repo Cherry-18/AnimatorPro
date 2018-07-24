@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator android:propertyName="pathData"
+        android:valueType="pathType"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:valueFrom="
+        M 20,30
+        L 100,30
+        M 100,30
+        L 100,90
+        M 100,90
+        L 20,90
+        M 20,90
+        L 20,30
+        "
+        android:valueTo="
+        M 100,30
+        L 180,30
+        M 180,30
+        L 180,90
+        M 180,90
+        L 100,90
+        M 100,90
+        L 100,30
+        "
+        android:duration="2000" />
+
+    <objectAnimator android:propertyName="pathData"
+        android:valueType="pathType"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:valueFrom="
+        M 100,30
+        L 180,30
+        M 180,30
+        L 180,90
+        M 180,90
+        L 100,90
+        M 100,90
+        L 100,30
+        "
+        android:valueTo="
+        M 100,120
+        L 180,120
+        M 180,120
+        L 180,180
+        M 180,180
+        L 100,180
+        M 100,180
+        L 100,120
+        "
+        android:duration="2000"/>
+
+    <objectAnimator android:propertyName="pathData"
+        android:valueType="pathType"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:valueFrom="
+        M 100,120
+        L 180,120
+        M 180,120
+        L 180,180
+        M 180,180
+        L 100,180
+        M 100,180
+        L 100,120
+        "
+        android:valueTo="
+        M 20,120
+        L 100,120
+        M 100,120
+        L 100,180
+        M 100,180
+        L 20,180
+        M 20,180
+        L 20,120
+        "
+        android:duration="2000"/>
+
+    <objectAnimator android:propertyName="pathData"
+        android:valueType="pathType"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:valueFrom="
+        M 20,120
+        L 100,120
+        M 100,120
+        L 100,180
+        M 100,180
+        L 20,180
+        M 20,180
+        L 20,120
+        "
+        android:valueTo="
+        M 20,30
+        L 100,30
+        M 100,30
+        L 100,90
+        M 100,90
+        L 20,90
+        M 20,90
+        L 20,30
+        "
+        android:duration="2000"/>
+</objectAnimator>
