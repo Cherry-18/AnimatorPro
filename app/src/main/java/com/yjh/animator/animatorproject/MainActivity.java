@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void test(){
-        Log.e("haha---","我是test");
+        Log.e("haha---","我是测试测试");
 
     }
 }
