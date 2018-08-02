@@ -3,6 +3,7 @@ package com.yjh.animator.animatorproject;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import com.yjh.svg.SvgTestActivity;
@@ -43,5 +44,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this,SvgTestActivity.class);
             startActivity(intent);
         }
+    }
+
+    public void haha(){
+        Log.e("haha---","哈哈哈哈");
     }
 }
