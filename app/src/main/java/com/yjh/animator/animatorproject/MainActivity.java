@@ -49,4 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void haha(){
         Log.e("haha---","哈哈哈哈");
     }
+
+    public void test(){
+        Log.e("haha---","我是test");
+
+    }
 }
